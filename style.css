@@ -1,0 +1,183 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #987070; /*006769, 03dac5 */ 
+    outline: none;
+  }
+  .navbar-inverse {
+    border: none;
+  }
+  .navbar-nav>li.active>a,
+  .navbar-nav>li.active>a:focus,
+  .navbar-nav>li.active>a:hover {
+      /* color: #ffffff !important; */
+      background-color: #C39898 !important;
+  }
+  .navbar-toggle {
+    background-color: #d5c9c0;
+  }
+  .navbar-nav li a {
+    color: #ffffff !important;
+  }
+  .navbar-nav li a:hover {
+    color: #FA9A54 !important;
+  }
+
+  .p0 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 58px;
+    text-shadow: 2px 2px 2px #DEA50F;
+  }
+  h3 {
+    font-family: 'Anton', sans-serif;
+  }
+  .p1 {
+    font-family: 'League Spartan', sans-serif;
+    color: #000000;
+    font-size: 58px;
+  }
+  .p2 {
+    font-family: 'League Spartan', sans-serif;
+    color: #000000b4;
+    font-size: 28px;
+  }
+  
+  .jumbotron, .container-fluid{
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  .col-sm-3 img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    border: 2px solid #000000;
+  }
+  .col-sm-3 img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  .col-sm-3 img.no-shadow {
+    box-shadow: none;
+    border: none;
+  }
+  
+  footer {
+    background-color: #987070;
+    padding-bottom: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #e4bf63;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  p {
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #544547;
+  }
+
+  li {
+    color: #ffffff;
+    /* font-weight: bold; */
+  }
+  .login {
+    font-weight: lighter;
+  }
+
+  .row {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .bg-1 { 
+    background-color: #F1E5D1;
+    color: #F6CD21;
+  }
+  .bg-3 { 
+    background-color: #e4bf63;
+    color: #b08a80;
+  }
+  
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #776B5D;
+  outline: none;
+  font-weight: bold;
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-nav>li.active>a,
+.navbar-nav>li.active>a:focus,
+.navbar-nav>li.active>a:hover {
+  /* color: #ffffff !important; Change this to the color you want */
+  background-color: #eed9c4 !important; /* Change this to the background color you want */
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+}
+
+.navbar-nav li.active a {
+color: #000 !important;
+}
+.navbar-nav li a:hover {
+color: #000 !important;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #776B5D;
+  padding: 15px;
+  color: #fff;
+}
+
+
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: 0px;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eed9c4;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+}
+
+
